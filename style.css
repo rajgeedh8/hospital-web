@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #32CD32 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    color:#32CD32;
+}
+
+section {
+    padding: 20px 0;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #32CD32;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #32CD32;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: #32CD32 3px solid;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Add this to your existing styles.css */
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #32CD32;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #006400;
+}
+
+/* Responsive Image */
+.responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Highlights Section */
+#highlights {
+    background: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.highlight-box {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-box h3 {
+    color: #006400;
+    margin-bottom: 15px;
+}
+
+
+#testimonials {
+    padding: 40px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.testimonial-box {
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gallery Section */
+#gallery {
+    background: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-grid img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.highlight-box p {
+    font-weight: bold; /* Makes the paragraph text bold */
+}
+
